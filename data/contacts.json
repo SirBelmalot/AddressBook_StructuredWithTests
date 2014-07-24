@@ -1,0 +1,32 @@
+﻿[
+    {
+        "Firstname": "Terry",
+        "Surname": "Test",
+        "Email": "terrytest@gmail.com",
+        "Address1": "1 A Street",
+        "Address2": "Manilva",
+        "City": "Malaga",
+        "ZipCode": "29692",
+        "Country": "Spain",
+        "Phone": {
+            "Prefix": "0034",
+            "PhoneNumber": "6744467566",
+            "PhoneType": "Mobile"
+        }
+    },
+    {
+        "Firstname": "Jerry",
+        "Surname": "Json",
+        "Email": "jerryjson@gmail.com",
+        "Address1": "11 B Street",
+        "Address2": "",
+        "City": "Malaga",
+        "ZipCode": "29692",
+        "Country": "Spain",
+        "Phone": {
+            "Prefix": "0034",
+            "PhoneNumber": "6676767666",
+            "PhoneType": "Mobile"
+        }
+    }
+]

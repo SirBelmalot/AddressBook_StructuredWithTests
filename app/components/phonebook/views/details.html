@@ -1,0 +1,20 @@
+﻿<div>
+    <p>Name:{{contact.Firstname}} {{contact.Surname}}</p>
+
+    <p>Address:
+        <span>{{contact.Address1}},</span>
+        <span ng-show="contact.Address2 != ''">{{contact.Address2}},</span>
+        <span>{{contact.City}},</span>
+        <span>{{contact.ZipCode}},</span>
+        <span>{{contact.Country}}</span>
+    </p>
+
+    <p ng-if="contact.Phone">
+        <span>{{contact.Phone.PhoneType}}: {{contact.Phone.Prefix}} {{contact.Phone.PhoneNumber}}</span>
+    </p>
+
+    <p>
+        Email address: {{contact.Email}}
+    </p>
+    <a href="#/index">Back</a>
+</div>

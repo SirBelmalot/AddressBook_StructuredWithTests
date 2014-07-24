@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html ng-app="phonebookManager">
+<head>
+    <title>Simple Phonebook App</title>
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+<body ng-cloak>
+    <!-- App template goes here -->
+    <div ng-view class="view-frame"></div>
+    <script type="text/javascript" src="scripts/angular.js"></script>
+    <script type="text/javascript" src="scripts/angular-route.js"></script>
+    <script type="text/javascript" src="scripts/angular-resource.js"></script>
+    <script type="text/javascript" src="scripts/angular-local-storage.js"></script>
+    <script type="text/javascript" src="app/models/phonebook/models.js"></script>
+    <script type="text/javascript" src="app/services/phonebook/index.js"></script>
+    <script type="text/javascript" src="app/services/phonebook/contacts.js"></script>
+    <script type="text/javascript" src="app/components/phonebook/controllers/contact.js"></script>
+    <script type="text/javascript" src="app/components/phonebook/controllers/index.js"></script>
+    <script type="text/javascript" src="app/index.js"></script>
+</body>
+</html>

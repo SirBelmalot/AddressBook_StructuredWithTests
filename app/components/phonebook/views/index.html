@@ -1,0 +1,11 @@
+﻿<div>
+    <p ng-if="contacts.length == 0">Your addressbook is empty!</p>
+    <ul class="ulcontacts">
+        <li ng-repeat="(id, contact) in contacts">
+            <span><a href="#/info/{{id}}">{{contact.Firstname + ' ' + contact.Surname}}</a> [<a href="#/delete/{{id}}">delete</a>] [<a
+                    href="#/update/{{id}}">edit</a>]</span>
+        </li>
+    </ul>
+    <a href="#/create">Add new contact</a>
+    <!--<a href="{{reset()}}">Reset</a>-->
+</div>

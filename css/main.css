@@ -1,0 +1,22 @@
+﻿body {
+    font-family:Arial, Tahoma, Verdana;
+    font-size:11pt;
+}
+
+.ulcontacts {
+    margin:0;
+    padding:0;
+}
+.ulcontacts li {
+    list-style:none;
+    padding-bottom:6px;
+}
+.cssForm input.ng-invalid.ng-dirty {
+    background-color: #FA787E;
+}
+.cssForm input.ng-valid.ng-dirty {
+    background-color: #78FA89;
+}
+.error {
+    color:#f00;
+}
